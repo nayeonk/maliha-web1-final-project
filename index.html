@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+         <title> Login From</title>  
+          <link rel="stylesheet" href="styles.css">
+     </head>
+     <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <body> 
+            
+      <div class="containerr">
+               <form id="survey-from" action="home.html" method="GET"> 
+                <header>
+                 <h1>Login Form</h1>
+                 </header>
+
+               <div>
+                    <label class="usernameleble"  for="UserName">UserName: </label>
+                    <input id="username" type="text" placeholder="enter your name" name="username" >
+                </div>
+                <div>
+                    <label class="email-label" for="email">Email Address:</label>
+                    <input id="email" type="email" placeholder="email" name="email-address" required>
+                </div>
+
+                <div>
+                    <label class="password" for="password">Password:</label>
+                    <input id="password" type="password" placeholder="password" name="password" required minlength="3">
+                </div>
+
+                <div>
+                 <label for="gender" id="gender" >what is your gender</label>
+                <label for="select"><select id="select" name="dropdown">
+                  <option value="men">men</option>
+                  <option value="female">female</option>
+                </select>
+                </div>
+
+                 <div>
+                    <button type="login">login</button>
+            
+                </div>
+              
+               </form>
+           </div>
+           <footer>
+            <p>Made by Maliha hashimi! 🤍</p>
+        </footer>
+    </body>
+</html>
